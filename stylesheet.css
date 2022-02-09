@@ -1,0 +1,784 @@
+body{
+    margin: auto;
+}
+
+.container-fluid > h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+
+.ProfileInfo{
+    height: 65%;
+    margin-bottom: 2%;
+}
+
+.ProfilePic > img{
+    border-radius: 50%;
+    margin-left: 0.5%;
+    margin-top: -5%;
+    float: left;
+}
+
+.ProfilePic > p{
+    color: rgb(17, 17, 16);   
+}
+
+.Info{
+    /*border: solid white 2px;*/
+    color: rgb(230, 230, 230);  
+    text-align: center;
+    margin-top: 5%; 
+    font-size: 30px;
+    width: 60%;
+    height: 87%;
+    margin-top: 7%;
+    margin-left: 34.5%;
+}
+
+.Info > p{
+    margin-top: 7%;
+    font-family: Helvetica;
+}
+
+#Edureka:hover{
+    transform: scale(1.1);
+}
+
+.Connections{
+    /*border: solid magenta 1px;*/
+    height: 280px;
+    margin-top: 15%
+}
+
+.Connections h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(230, 230, 230);
+}
+
+.ConnectionsParent{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;    
+}
+
+#ConnectionsCard{
+    margin-left: 2%;
+}
+
+#ConnectionsCard > a > img{
+    height: 105px;
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+    margin-right: 3%;
+    border-radius: 55%;
+    cursor: pointer;
+}
+
+#ConnectionsCard > a> img:hover{
+    box-shadow: rgb(255, 255, 255) 1px 12px  50px;
+}
+
+.Hobby{
+    /*border: solid yellow 1px;*/
+    height: 600px;
+    margin-top: 10%;
+}
+
+#HobbyCard{
+    height: 350px;
+    width: 25%;
+    float: left;
+    margin-left: 6.1%;
+    margin-top: 4%;
+    background: rgb(230, 230, 230);
+    overflow: scroll;    
+}
+
+#HobbyCard > img{
+    height: 70%;
+    width: 100%;
+    
+}
+
+.Hobby > h1 {
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 40px;
+}
+
+#HobbyCard > h2{
+    text-align: center;
+    font-family: Arial Black;
+}
+
+#HobbyCard > p{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-family: Arial Black;
+}
+
+.headingskill > h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.headingskill{
+    color: rgb(230, 230, 230);
+}
+
+.SKillCard{
+    display: flex;
+    height: 220px;    
+}
+
+.SKillCard > a > img{
+    height: 150px;
+    border: solid rgb(144, 140, 140) 3px;
+    border-radius: 12px;
+    margin-left: 35;
+    margin-top: -2%;
+}
+
+.SKillCard > a{
+    margin-left: 11%;
+    margin-top:2.5%;
+}
+
+.SKillCard > a > img:hover{
+    box-shadow:white 1px 2px 15px 10px;
+}
+
+#Projects{
+    margin-top: 10%;
+    color: white;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.h2{
+    text-align: center;
+}
+
+.card{
+    width: 550px;
+    height: 500px;
+    border: solid 1px white;
+}
+
+.CnctHeading{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(230, 230, 230); 
+}
+
+.ContactInfo{
+    font-family: Georgia;
+    text-align: center;
+}
+
+.ContactInfo >ul >li{
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+.ContactInfo > ul{
+    list-style: none;
+    margin-left: -3%;
+    font-weight: bold;    
+}
+
+.Line{
+    border: solid black 0.5px;
+    margin-top: 7%;
+}
+
+#Addrs{
+    margin-top: 1%;    
+}
+
+.Map{
+    margin-top: 5%;
+}
+
+.Map > iframe{
+    text-align: center;
+    width: 800px;
+    height: 280px;
+}
+
+.Footer{
+    background: rgb(230, 230, 230);
+    height: 50px;
+    color: rgb(3, 3, 3);     
+}
+
+#Footer{
+    margin-top: 5%;
+    margin-left: 41%;
+    padding-top: 15px;
+}
+
+
+                        /*----------Media Query-----------*/
+
+        /*Laptop & Monitor*/
+@media only screen and (max-width: 1600px){
+    body{
+        margin: auto;
+    }
+    
+}
+            /*Laptop NoteBook Type*/
+@media only screen and (max-width:1400px){
+    body{
+       margin: auto;
+    }
+}
+            /*Mini Laptops and Tabs*/
+@media only screen and (max-width:1200px){
+     body{
+        margin: auto;
+    }
+
+.NavBar > p{
+    margin-top: -1.5%;        
+}
+
+#ConnectionsCard{
+    height: 90px;
+    width: 8%;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+
+#HobbyCard{
+    height: 280px;
+    width: 30%;
+    margin-left: 2.3%;
+}
+            /*Tablets and Ipads*/   
+@media only screen and (max-width:1025px){
+    body{
+        margin: auto;
+    }
+
+.Info{
+    margin-top: 5%; 
+    font-size: 28px;
+    margin-top: 7%;
+    margin-left: 49%;
+}    
+
+.ProfilePic > img{
+    margin-left: 0.5%;
+    margin-top: -5%;
+    height: 400px;
+}
+
+.Connections{
+    height: 300px;
+    margin-top: 15%
+}
+
+.Connections h1{
+    text-align: center;
+}
+
+#ConnectionsCard{
+    height: 100px;
+    width: 11%;
+    margin-top: 2%;
+}
+
+.headingskill > h1{
+    margin-left: 5%;
+}
+
+#HobbyCard{
+    margin-left: 2%;
+    margin-top: 4%;        
+}
+
+#HobbyCard > img{
+    height: 70%;
+    width: 100%;        
+}
+
+#HobbyCard > h2{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#HobbyCard > p{
+    text-align: center;
+}
+
+.SKillCard > a > img{
+    height: 150px;
+    border: solid rgb(144, 140, 140) 3px;
+    border-radius: 2px;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.SKillCard > a{
+    margin-left: 7%;
+    margin-top:2.5%;
+}
+
+.Line{
+    border: solid black 0.5px;
+    width: 108.8%;
+}
+
+.ContactInfo{
+    font-family: Georgia;
+    text-align: center;
+}
+
+.ContactInfo >ul >li{
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+.ContactInfo > ul{
+    list-style: none;
+    margin-left: -3%;
+    font-weight: bold;    
+}
+
+.Map{
+    margin-top: 5%;
+}
+
+
+}
+            /*Mini Ipad & Tablet*/
+@media only screen and (max-width:769px){
+    body{
+    margin: auto;
+}
+
+.NavBar{
+    width: 110.5%;
+}
+
+.NavBar > p{
+    font-size: 70px;
+    margin-top: -2.5%;       
+}
+
+.ProfilePic > img{
+    position: absolute;
+    margin-left: 28%;
+    margin-top: -75%;
+}
+
+.Info{
+    margin-top: 77%;
+    margin-left: 12%;
+    width: 90%;
+}
+
+.ConnectionsParent{
+    margin-top: 3.5%;
+    margin-left: 5%;    
+}
+
+.Connections{
+    height: 250px;
+    margin-top: 15%
+    margin-left: 20%;
+}
+
+.Connections h1{
+    margin-left: 12%;
+}
+
+#ConnectionsCard{
+    width: 14%;
+}
+
+
+.Hobby{
+    height: 1220px;
+}
+
+.Hobby > h1{
+    margin-left: 12%;
+}
+
+#HobbyCard{
+    height: 350px;
+    width: 60%;
+    margin-left: 26%;
+}
+
+.Hobby{
+    height: 1250px;
+}
+
+.SKillCard{
+    margin-right: 23%;
+}
+
+.headingskill > h1{
+    margin-left: 8.5%;
+}
+
+.Line{
+    border: solid black 0.5px;
+    width: 110.8%;
+}
+
+.CnctHeading{
+    margin-left: 8%;
+}
+
+.Map > iframe{
+    width: 600px;
+    height: 250px;
+    margin-left: 5%;
+}
+
+}
+            /*Max screen Mobiles*/
+@media only screen and (max-width:600px){
+    body{
+        margin: auto;
+    }
+
+.NavBar{
+    width: 135.4%;
+}
+
+.ProfilePic > img{
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -76%;
+}
+
+.Info{
+    margin-top: 78%;
+    margin-left: 22%;
+    width: 90%;
+}
+
+.Connections h1{
+    margin-left: 33%;
+}
+
+.ConnectionsParent{
+    margin-top: 3.5%;
+    margin-left: 2%;
+    width: 125%;    
+}
+
+.Hobby > h1{
+    margin-left: 35%;
+}
+
+#HobbyCard{
+    height: 350px;
+    width: 75%;
+    margin-left: 30%;
+}
+
+.headingskill > h1{
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+.SKillCard{
+    margin-right: 43%;
+}
+
+.Line{
+    border: solid black 0.5px;
+    width: 135.8%;    
+}
+
+.CnctHeading > h1{
+    margin-left: 30%;
+}
+
+.ContactInfo{
+    margin-left: 25%;
+}
+
+.Hobby > h1 {
+    margin-left: 0%;
+    margin-top: 10%;
+}
+
+.Hobby{
+    margin-top: 15%;
+}
+
+.Map > h1 {
+      margin-left: 15%;
+}
+
+.Map{
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.Map > iframe{
+    height: 200px;
+    width: 400px;
+}
+
+            /*Medium Screen Mobiles 481px and less than */
+@media only screen and (max-width:481px){
+    body{
+        margin: auto;
+    }
+
+.NavBar{
+    width: 98.5%;
+}    
+
+.NavBar > p{
+    font-size: 50px;
+    margin-top: -1%;
+    margin-right: -4%;      
+}    
+
+.ProfilePic > img{
+    margin-left: 13%;
+    margin-top: -88%;
+    height: 300px;
+}
+
+.ProfileInfo{
+    width: 95%;
+    margin-top: 5%;
+}
+
+.Info{
+    margin-top: 95%;
+    margin-left: 7%;
+    width: 90%;
+    font-size: 20px;
+}
+
+.Connections{
+    height: 230px;
+    margin-top: 25%;
+    margin-left: 14%;
+    width: 50%;
+}
+
+.Connections h1{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20%;
+    width: 100%;
+}
+
+#ConnectionsCard{
+    height: 30px;
+    width: 35%;
+    margin-top: 5%;
+    padding-left: 1.5%;
+}
+
+#ConnectionsCard > a > img {
+    height: 52px;
+    width: 100%;
+    margin-right: 3%;
+}
+
+#HobbyCard{
+    height: 250px;
+    margin-left: 14.5%;
+    width: 72%;
+}
+
+.Hobby > h1 {
+    font-size: 30px;
+    margin-left: -5%;
+}
+
+
+.headingskill > h1{
+    font-size: 30px;
+    margin-left: -2%;
+    margin-top: -55%;
+}
+
+.SKillCard{
+    flex-direction: column;
+    margin-left: 27%;       
+}
+
+.SKillCard > a > img{
+    border: solid rgb(144, 140, 140) 3px;
+    border-radius: 12px;
+    margin-top: -5%;     
+}
+
+.SKillCard > a{
+    margin-left: 11%;
+    margin-top:10%;
+    padding-top: 10px;
+}
+.videos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Projects{
+    margin-top: 60rem;
+    font-size: 36px;
+}
+
+.card {
+  margin-left: auto ;margin-right: auto;
+  width: 350px ;
+  height: 350px ;
+  margin-top: 4%;
+}
+
+.Line{
+    width: 104%;
+    margin-top: 130%;
+}
+
+.CnctHeading{
+    margin-left: -40%;
+    margin-top: 15%;
+}
+
+.CnctHeading > h1{
+   text-align: center;
+   margin-left: 25%;
+}
+
+.ContactInfo{
+    width: 251px;
+    margin-left: 39%;   
+}
+
+.Map{
+    margin-left: 25%;
+}
+
+.Map >h1 {
+    margin-left: 5%;
+}
+
+.Map > iframe{
+    width: 300px;
+}
+
+#Footer {
+    margin-top: 5%;
+    margin-left: 29%;
+    padding-top: 18px;
+    font-size: 15px;
+}
+
+
+}
+
+                /*Small screen Devices 320px and less than */
+@media only screen and (max-width:320px){
+    body{
+        background: rgb(12, 78, 78);
+    }
+
+.NavBar > p{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -1%;      
+}    
+
+.ProfilePic > img {
+    position: absolute;
+    margin-left: 10.5%;
+    margin-top: -85%;
+    height: 250px;
+}
+
+.Info {
+    margin-top: 95%;
+    margin-left: 7%;
+    width: 90%;
+    font-size: 20px;
+}
+
+.Connections{
+    height: 230px;
+    margin-top: 15%
+}
+
+.Connections h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.ConnectionsParent {
+    margin-left: 5%;
+}
+
+#ConnectionsCard{
+    height: 70px;
+    width: 22%;
+}
+
+#ConnectionsCard > a > img {
+    height: 45px;
+    width: 100%;
+    margin-right: 3%;
+}
+
+.Hobby > h1 {
+    font-size: 36px;
+}
+
+.Hobby{
+    margin-top: -20%
+}
+
+#HobbyCard{
+    height: 250px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.headingskill > h1 {
+    margin-top: -80%;
+    font-size: 36px;
+}
+
+.SKillCard > a > img{
+    margin-left: -10%;  
+}
+
+.CnctHeading{
+    margin-left: -40%;
+    margin-top: 20%;
+}
+
+.CnctHeading > h1{
+    font-size: 36px;
+}
+
+.ContactInfo {
+    width: 251px;
+    margin-left: 32%;
+}
+    
+}
+    
+
