@@ -55,6 +55,7 @@ body{
     text-align: center;
     font-size: 40px;
     color: rgb(230, 230, 230);
+    margin-top: 25rem;
 }
 
 .ConnectionsParent{
@@ -151,8 +152,7 @@ body{
     box-shadow:white 1px 2px 15px 10px;
 }
 
-#Projects{
-    margin-top: 10%;
+.h1{
     color: white;
 }
 
@@ -160,7 +160,30 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
+    background: grey;
 }
+
+#Proj video{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: #fff;
+  cursor: pointer;
+  margin: 3% 30%;
+}
+
+#myBtn:hover {
+  background: rgb(29, 28, 28);
+  color: black;
+}
+
 
 .h2{
     text-align: center;
@@ -169,7 +192,6 @@ body{
 .card{
     width: 550px;
     height: 500px;
-    border: solid 1px white;
 }
 
 .CnctHeading{

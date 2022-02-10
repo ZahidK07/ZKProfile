@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body style="background: rgb(0, 0, 0);;">
+<body style="background: rgb(15, 15, 15);">
     <div class="container-fluid" style="background: rgb(230, 230, 230);">
        <h1>Zahid Kazi</h1>
    </div>
@@ -84,17 +84,27 @@
         </div>
         <!-----------------Skills---------------->
         <!------------------Projects videos------------------>
-        <h1 class="h1 text-center" id="Projects">Work & Projects</h1>
+        <h1 style="color: white;" class="h1 text-center" id="Projects">Work & Projects</h1>
        
         <div class=" row videos"> 
-            <div class="card" id="Proj1">
-                 <h2 class="h2">Zomato Clone </h2>
-                <video src=""></video>
+            <div class="card" id="Proj">
+                <video autoplay muted>
+                    <source src="./Project Videos/ZMScreenRecorder_2022-02-10.mp4">
+                </video>
+                 <div class="content">
+                    <h1 style="color: rgb(20, 18, 18);" class="text-center">Zomato Clone</h1>
+                    <button id='myBtn'><a href="">Live Link</a></button>
+                </div>
             </div>
-            <div class="card">
-                <h2 class="h2">Bodybuilding.com</h2>
-                <video src=""></video>
-            </div>
+            <div class="card" id="Proj">
+                <video autoplay muted id="myVideo">
+                    <source src="./Project Videos/ScreenRecorder_2022-02-10.mp4">
+                </video>
+                <div class="content">
+                    <h1 style="color: rgb(22, 21, 21);" class="text-center">Bodybuilding.com Clone</h1>
+                    <button id='myBtn'><a href="">Live Link</a></button>
+                </div>
+        </div>
         </div>
         <!------------------Projects videos------------------>
 
