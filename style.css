@@ -1,0 +1,561 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+
+
+@font-face {
+    font-family: Poppins-regular;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-medium;
+    src: url(./assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-semi-bold;
+    src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+
+
+:root{
+    /* ================ Fonts =================== */
+
+    --poppins-regular: Poppins-Regular;
+    --poppins-medium: Poppins-Medium;
+    --poppins-bold: Poppins-Bold;
+    --poppins-semi-bold: Poppins-semi-bold;
+
+    /* ================ colors ================== */
+
+
+    /* ================ bacground ================== */
+
+    --multiGrad: 
+        19px -20px 40px -20px rgb(255 255 255),
+        -20px -20px 40px -20px rgb(255 0 0),
+        0px 20px 40px -20px #13f1f7,
+        15px -20px 40px -20px #ffffff,
+        20px -15px 40px -20px rgb(255 0 0),
+        -20px -14px 40px -20px #0400fb,
+        20px -1px 40px -20px #0400fb,
+        20px -8px 40px -20px #00ff5e,
+    -20px 20px 40px -20px #d424eb;
+
+    --cardGradient:
+        19px -20px 40px -20px rgb(255 255 255),
+        -20px -20px 40px -20px rgb(255 0 0),
+        0px 20px 40px -20px #13f1f7,
+        15px -20px 40px -20px #ffffff,
+        20px -15px 40px -20px rgb(255 0 0),
+        -20px -14px 40px -20px #0400fb,
+        20px -1px 40px -20px #0400fb,
+        20px -8px 40px -20px #00ff5e,
+    -20px 20px 40px -20px #d424eb;
+
+    --text-Grad:radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(188,0,255,1) 39%, rgba(93,149,200,1) 65%, rgba(253,45,45,1) 100%);
+    
+    
+    /* ================ font-size ================== */
+    --font-70: 70px;
+    --font-68: 68px;
+    --font-66: 66px;
+    --font-64: 64px;
+    --font-62: 62px;
+    --font-58: 58px;
+    --font-54: 54px;
+    --font-50: 50px;
+    --font-46: 46px;
+    --font-42: 42px;
+    --font-38: 38px;
+    --font-34: 34px;
+    --font-32: 32px;
+    --font-30: 30px;
+    --font-28: 28px;
+    --font-27: 27px;
+    --font-26: 26px;
+    --font-24: 24px;
+    --font-22: 22px;
+    --font-20: 20px;
+    --font-19: 19px;
+    --font-18: 18px;
+    --font-17: 17px;
+    --font-16: 16px;
+    --font-15: 15px;
+    --font-14: 14px;
+    --font-13: 13px;
+    --font-12: 12px;
+    --font-10: 10px;
+}
+
+body{
+    overflow: overlay;
+}
+
+nav{
+    border-bottom: 1px solid white;
+    height: 60px;
+}
+
+.nav-container{
+    width: 85%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-wrapper{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    font-size:x-large;
+    font-family: var(--poppins-medium);
+}
+
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 0px;
+}
+
+.navLinks a{
+    list-style: none;
+    font-size: var(--font-20);
+    font-family: var(--poppins-regular);
+    color: aliceblue;
+}
+
+.navLinks a:hover{
+    border-bottom: 1px solid white;
+}
+
+.link{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-btn{
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn span{
+    color: aliceblue;
+    font-size: var(--font-20);
+}
+
+/* ============= Navbar ends ============= */
+
+/* ============= Header starts ============= */
+
+/* header{
+    display: flex;
+    justify-content: center;
+} */
+
+.grid{
+    /* border: 1px solid yellow; */
+    max-width: 85%;
+    display: grid;
+    grid-template-rows: repeat(1, 550px);
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem auto;
+    }
+
+    .card{
+        /* border: 1px solid red; */
+    }
+
+    .name-card{
+        display: grid;
+        align-content: center;
+        }
+
+        .name-box{
+        /* border: 1px solid rgb(40, 242, 14); */
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        margin: 0 auto;
+        }
+
+        .name-box h1, h2, .multiText{
+        font-family: var(--poppins-regular);
+        background: var(--text-Grad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+
+        .name-box h1{
+        font-size: var(--font-70);
+        font-family: var(--poppins-medium)
+        }
+
+        .name-box h2, #multiText{
+        font-size: var(--font-42);
+    }
+
+    .pic-card{
+        display: grid;
+    }
+
+    .pic-box{
+        max-width: fit-content;
+        max-height: 30rem;
+        margin: auto auto;
+        /* border: 1px solid white; */
+        padding: 0.5rem;
+        box-shadow: var(--multiGrad);
+    }
+
+    .pic-box img{
+        max-height: 29em;
+        width: inherit;
+    }
+
+    /* img{
+        max-width: 100%;
+} */
+
+/* ============= Header ends ============= */
+
+/* ============= section starts ============= */
+/* main{
+    height: 100vh;  
+    display: flex;
+    flex-direction: column; 
+}
+
+.main-container{
+    width: 85%;
+    border: 1px solid blue;
+    height: inherit;
+    margin: 0 auto;
+} */
+
+    /* .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1.5rem;
+        height: 300px;
+        margin: 15% 10%;
+    } */
+
+    /* .grid-container{
+        display: flex;
+        gap: 2rem;
+        float: left;
+    }
+
+    .main-card{
+        
+        max-width: 25%;
+        min-height: 6rem;
+        background: red
+} */
+
+
+.section-grid{
+    /* border: 1px solid crimson; */
+    max-width: 85%;
+    display: grid;
+    grid-template-rows: repeat(1, 350px);
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-gap: 2.5rem ;
+    margin: 5rem auto ;
+    padding: 5% 5%;
+    }
+
+    .sec-card{
+        /* border: 1px solid blue; */
+        box-shadow: var(--cardGradient);
+    }
+
+/* ============= section ends ============= */
+
+footer{
+    height: 60px;
+    border-top: 1px solid white;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ################### Media Quieries ################### */
+
+@media (max-width: 1310px){
+    .section-grid{
+        display: grid;
+        grid-template-rows: repeat(2, 350px);
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+
+    /* .name-box{
+        width: ;
+    } */
+
+    .name-box h2, #multiText {
+        font-size: var(--font-38);
+    }
+}
+
+@media (max-width: 1024px){
+
+    .grid{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-grid{
+        display: grid;
+        grid-template-rows: repeat(2, 350px);
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+
+    .name-card{
+        margin: 3rem 0;
+    }
+
+    .name-box{
+        width: 50%;
+    }
+
+    .name-box h1{
+        font-size: var(--font-58);
+    }
+
+    .name-box h2, #multiText {
+        font-size: var(--font-32);
+    }
+}
+
+@media (max-width: 865px){
+
+    /* ============= Navbar started ============= */
+
+    /* .menu-btn{
+        cursor: pointer;
+        font-size: 30px;
+        background: #0e0e0e;
+        color: #ffffff;
+    }
+
+    .navlink{
+        display: none
+    }
+
+    .overlay{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 50%;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+    }
+
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30%;
+    }
+
+    .overlay a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlya a:hover, .overlay a:focus{
+        color: #f1f1f1;
+    }
+
+    .overlay .closeBtn{
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    } */
+
+
+    .overlay{
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a{
+        padding: 8px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus{
+        color: #f1f1f1;
+
+    }
+
+    .overlay .closeBtn{
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    .closeBtn{
+        color: #000000;
+        background: #f8f6f6;
+    }
+
+    /* ============= Navbar ends ================ */
+
+    .section-grid{
+        display: grid;
+        grid-template-rows: repeat(3, 350px);
+        grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    }
+
+    .name-box{
+        width: 55%;
+    }
+
+    .name-box h1{
+        font-size: var(--font-54);
+    }
+
+    .name-box h2, #multiText {
+        font-size: var(--font-28);
+    }
+}
+
+@media (max-width: 700px){
+
+    /* ============= Navbar started ============= */
+
+    .menu-btn{
+        cursor: pointer;
+        font-size: 30px;
+        background: #0e0e0e;
+        color: #ffffff;
+    }
+
+    .navlink{
+        display: none
+    }
+
+    .overlay{
+        /* height: 100%; */
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 50%;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9);
+    }
+
+    .overlay-content{
+        position: relative;
+        /* top: 25%; */
+        /* width: 100%; */
+        /* text-align: center; */
+        /* margin-top: 30%; */
+    }
+
+    .overlay a{
+        /* padding: 8px; */
+        text-decoration: none;
+        /* font-size: 36px;
+        color: #818181; */
+        transition: 0.3s;
+    }
+
+    .overlya a:hover, .overlay a:focus{
+        color: #f1f1f1;
+    }
+
+    .overlay .closebtn{
+        position: absolute;
+        /* top: 20px;
+        right: 45px; */
+        font-size: 60px;
+    }
+
+
+    /* ============= Navbar ends ================ */
+
+    .name-box{
+        width: 65%;
+    }
+
+    .section-grid{
+        grid-template-rows: repeat(3, 280px);
+        grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    }    
+}
+
+@media (max-width: 576px){
+
+    .name-box{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .name-box h2, #multiText {
+        font-size: var(--font-27);
+    }
+
+    .section-grid{
+        grid-template-rows: repeat(3, 260px);
+        grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+    }
+
+}
+
+@media (max-width: 480px){
+    
+}
