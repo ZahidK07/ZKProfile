@@ -221,7 +221,8 @@ a{
     }
 
     .pic-box{
-        max-width: fit-content;
+        /* max-width: fit-content; */
+        width: 100%;
         max-height: 30rem;
         margin: auto auto;
         /* border: 1px solid white; */
@@ -232,6 +233,7 @@ a{
     .pic-box img{
         max-height: 29em;
         width: inherit;
+        object-fit: fill;
     }
 
     /* img{
@@ -547,7 +549,7 @@ footer{
     }
 
     .name-box h2, #multiText {
-        font-size: var(--font-25);
+        font-size: var(--font-24);
     }
 
     .section-grid{
