@@ -83,6 +83,7 @@
     --font-28: 28px;
     --font-27: 27px;
     --font-26: 26px;
+    --font-25: 25px;
     --font-24: 24px;
     --font-22: 22px;
     --font-20: 20px;
@@ -542,16 +543,20 @@ footer{
 
     .name-box{
         width: 100%;
-        padding: 0 2rem;
+        padding: 0 0rem;
     }
 
     .name-box h2, #multiText {
-        font-size: var(--font-27);
+        font-size: var(--font-25);
     }
 
     .section-grid{
         grid-template-rows: repeat(3, 260px);
         grid-template-columns: repeat(auto-fit,minmax(230px, 1fr));
+    }
+
+    .pic-box img{
+        max-width: 20em;
     }
 
 }
