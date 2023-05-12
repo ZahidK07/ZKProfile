@@ -221,8 +221,7 @@ a{
     }
 
     .pic-box{
-        /* max-width: fit-content; */
-        width: 100%;
+        max-width: fit-content;
         max-height: 30rem;
         margin: auto auto;
         /* border: 1px solid white; */
