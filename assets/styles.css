@@ -392,6 +392,7 @@ footer p{
 }
 
 @media (max-width: 576px){
+    
 
     nav{
         border-bottom: none;
@@ -437,6 +438,7 @@ footer p{
 
         transform: translateX(100%);
         transition: transform 400ms ease-out;
+        
     }
 
     .navLinks[data-visible="true"]{
@@ -445,6 +447,10 @@ footer p{
 
     .navLinks ul{
         flex-direction: column;
+    }
+
+    .navLinks a{
+        font-size: var(--font-25);
     }
 
     .name-box{
