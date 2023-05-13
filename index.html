@@ -5,57 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/Styles/style.css">
-
+    <link rel="stylesheet" href="./assets/styles.css">
     <title>My Profile</title>
 </head>
 
 <body>
-    <!-- <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <p>MyFolio</p>
-            </div>
-
-            <div class="nav-wrapper overlay">
-                <a href="javascript:void(0)" class="closeBtn"></a>
-                <span class="menu-btn" id="menuBtn" onclick="openMenu()">
-                    &#9776;
-                </span>
-                <ul class="navlink overlay-content">
-                    <li>
-                        <a href="" class="link">Home</a>
-                    </li>
-                    <li>
-                        <a href="" class="link">Projects</a>
-                    </li>
-                    <li>
-                        <a href="" class="link">Skills</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav-btn"><span>Light|Dark</span></div>
-        </div>
-    </nav> -->
-
     <nav>
-        <div id="menu" class="overlay">
-            <a href="" class="closeBtn" onclick="closeMenu()">&times;</a>
-        </div>
-        <div class="overlay-content navLinks ">
-            <a href="">About</a>
-            <a href="">Skills</a>
-            <a href="">Contact</a>
+        <button id="menu" class="MenuBtn" aria-controls="navbar" aria-expanded="false">
+            <span aria-expanded="false"></span>
+        </button>
+
+        <div id="navbar" class="overlay-content navLinks" data-visible="false">
+            <ul>
+                <li>
+                    <a href="">Projects</a>
+                </li>
+                <li>
+                    <a href="">Skills</a>
+                </li>
+                <li>
+                    <a href="">Certificates</a>
+                </li>
+                <li>    
+                    <a href="">About</a>
+                </li>
+            </ul>
         </div>
     </nav> 
 
-    <header class="grid">
+    <section class="grid">
         
         <div class="card name-card">
-            <div class="name-box">
-                <h2>Hey<span></span></h2>
-                <h1>I'm Zahid</h1>
-                <h2>I'm a Frontend <span class="multiText"></span></h2>
+            <div class="name-box ">
+                <h2 class="glow">Hey<span></span></h2>
+                <h1 class="glow">I'm Zahid</h1>
+                <h2 class="glow">I'm a Frontend <span class="multiText glow"></span></h2>
             </div>
         </div>
 
@@ -66,43 +50,22 @@
             </div>
             
         </div>
-    </header>
-
-    <section class="section-grid"> 
-
-        <div class="sec-card">
-
-        </div>
-
-        <div class="sec-card">
-            
-        </div>
-
-        <div class="sec-card">
-            
-        </div>
     </section>
 
-    <!-- <main>
-        <div class="main-container">
+    <main class="section-grid"> 
 
-               <div class="grid-container">
+        <div class="sec-card">
 
-                    <div class="main-card ">
-
-                    </div>
-
-                    <div class="main-card ">
-
-                    </div>
-
-                    <div class="main-card ">
-
-                    </div>
-                    
-                </div>         
         </div>
-    </main> -->
+
+        <div class="sec-card">
+            
+        </div>
+
+        <div class="sec-card">
+            
+        </div>
+    </main>
 
     <footer>
         <p>&copy;2023 Zahid Frontend Developer</p>
@@ -110,6 +73,5 @@
     
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="./assets/JS/code.js"></script>
-    <script src="./assets/JS/navBar.js"></script>
 </body>
 </html>
