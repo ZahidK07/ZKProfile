@@ -233,9 +233,9 @@ nav{
             font-family: var(--poppins-medium)
         }
 
-        .name-box h2, #multiText{
+        .name-box h2 pre, #multiText{
             font-size: var(--font-42);
-            font-family: var(--poppins-medium);
+            font-family: var(--poppins-regular);
     }
 
     .pic-card{
