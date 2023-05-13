@@ -141,7 +141,7 @@ nav{
         color: aliceblue;
     }
 
-    .navLinks a:hover{ border-bottom: 1px solid white;}
+    /* .navLinks a:hover{ border-bottom: 1px solid white;} */
 
     .link{ color: white;}
 
@@ -447,10 +447,17 @@ footer p{
 
     .navLinks ul{
         flex-direction: column;
+        width: 12em;
     }
 
     .navLinks a{
         font-size: var(--font-25);
+        transition: transform .2s;
+    }
+
+    .navLinks a:hover{
+        font-size: var(--font-26);
+        transform: scale(0.5);
     }
 
     .name-box{
