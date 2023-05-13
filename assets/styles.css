@@ -437,7 +437,6 @@ footer p{
 
         transform: translateX(100%);
         transition: transform 400ms ease-out;
-        border-left: 1px solid white;
     }
 
     .navLinks[data-visible="true"]{
