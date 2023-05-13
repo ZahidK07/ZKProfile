@@ -200,11 +200,11 @@ nav{
         }
 
         .name-box h1, h2, .multiText{
-            /* font-family: var(--poppins-regular);
-            background: var(--text-Grad); */
-            /* -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; */
-            /* animation: glow 1s ease-in-out infinite alternate; */
+            font-family: var(--poppins-regular);
+            background: var(--text-Grad); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            /* animation: glow 1s ease-in-out infinite alternate;  */
         }
 
         .glow {
